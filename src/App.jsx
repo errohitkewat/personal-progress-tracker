@@ -150,10 +150,6 @@ function Dashboard() {
 
       <section className="hero">
         <div>
-          <p className="eyebrow">
-            YOUR CONSISTENCY, IN ONE PLACE
-          </p>
-
           <h1>
             Small steps.
             <br />
@@ -780,7 +776,7 @@ function WeekView() {
 export default function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <Routes>
         <Route
